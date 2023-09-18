@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{5EA7ABC9-3EF7-4CA0-93D6-87259110D45A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DDF9640-1156-4AED-8066-7E1342FD8CCE} = {2DDF9640-1156-4AED-8066-7E1342FD8CCE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.Interfaces", "Gateway.Interfaces\Gateway.Interfaces.csproj", "{2DDF9640-1156-4AED-8066-7E1342FD8CCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA7ABC9-3EF7-4CA0-93D6-87259110D45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA7ABC9-3EF7-4CA0-93D6-87259110D45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA7ABC9-3EF7-4CA0-93D6-87259110D45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA7ABC9-3EF7-4CA0-93D6-87259110D45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDF9640-1156-4AED-8066-7E1342FD8CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDF9640-1156-4AED-8066-7E1342FD8CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDF9640-1156-4AED-8066-7E1342FD8CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDF9640-1156-4AED-8066-7E1342FD8CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89F72D96-17DA-4223-8A1E-D662F98EB5B3}
+	EndGlobalSection
+EndGlobal
